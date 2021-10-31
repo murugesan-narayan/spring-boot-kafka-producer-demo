@@ -1,6 +1,6 @@
-package com.muru.dcb.kafka.consumer.demo.config;
+package com.muru.dcb.kafka.producer.demo.config;
 
-import com.muru.dcb.kafka.consumer.demo.model.Book;
+import com.muru.dcb.kafka.producer.demo.model.Book;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.context.annotation.Bean;
@@ -25,7 +25,7 @@ public class KafkaConfig {
     }
 
     @Bean
-    public KafkaTemplate kafkaTemplate() {
+    public KafkaTemplate<String, Book> kafkaTemplate() {
         return new KafkaTemplate<>(producerFactory());
     }
 }

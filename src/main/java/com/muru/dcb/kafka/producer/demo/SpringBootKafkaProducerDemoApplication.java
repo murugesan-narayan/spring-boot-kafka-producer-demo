@@ -1,13 +1,13 @@
-package com.muru.dcb.kafka.consumer.demo;
+package com.muru.dcb.kafka.producer.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootKafkaConsumerDemoApplication {
+public class SpringBootKafkaProducerDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootKafkaConsumerDemoApplication.class, args);
+		SpringApplication.run(SpringBootKafkaProducerDemoApplication.class, args);
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.muru.dcb.kafka.consumer.demo.model;
+package com.muru.dcb.kafka.producer.demo.model;
 
 import lombok.Data;
 

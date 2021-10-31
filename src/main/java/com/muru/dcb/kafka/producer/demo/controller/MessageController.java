@@ -1,9 +1,8 @@
-package com.muru.dcb.kafka.consumer.demo.controller;
+package com.muru.dcb.kafka.producer.demo.controller;
 
-import com.muru.dcb.kafka.consumer.demo.model.Book;
+import com.muru.dcb.kafka.producer.demo.model.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
