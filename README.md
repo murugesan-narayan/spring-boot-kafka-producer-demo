@@ -25,6 +25,9 @@ Download Kafka binaries from [Apache Kafka](https://kafka.apache.org/downloads)
 ```bash
 .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic TestTopic
 ```
+5. SSL
+   
+   Ensure that correct port number and ssl keystore and truststore files are used.
 
 ### Build and Run
 ```bash
